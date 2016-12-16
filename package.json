@@ -7,12 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
 	"dependencies": {
-		"nightmare": "2.8.1"
+		"nightmare": "^2.8.1",
+    "mocha": "^2.5.3"
 	},
 	"scripts": {
-	  "start": "nightmare"
+	  "nightmare": "nightmare",
+    "start": "node nightmare.js"
 	},
   "author": "motoyasu.saburi",
   "license": "ISC"
-	
 }
